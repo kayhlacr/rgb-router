@@ -2,18 +2,9 @@
 import "./App.css";
 import { Routes } from "react-router-dom";
 import { Route } from "react-router-dom";
-
-function Red() {
-  return <div className="page red">Red</div>;
-}
-
-function Green() {
-  return <div className="page green">Green</div>;
-}
-
-function Blue() {
-  return <div className="page blue">Blue</div>;
-}
+import Red from "./routes/Red";
+import Blue from "./routes/Blue";
+import Green from "./routes/Green";
 
 function App() {
   // const [count, setCount] = useState(0)
